@@ -1,0 +1,21 @@
+last10 <- c("2024-02-11", "2023-02-12", "2022-02-13", "2021-02-07", "2020-02-02",
+                 "2019-02-03", "2018-02-04", "2017-02-05", "2016-02-07", "2015-02-01")
+View(last10)
+last10dates <- data.frame(Date = as.Date(last10))
+view(last10dates)
+last10win <- c("Kansas City Chiefs",
+               "Kansas City Chiefs",
+               "Los Angeles Rams",
+               "Tampa Bay Buccaneers",
+               "Kansas City Chiefs",
+               "New England Patriots",
+               "Philadelphia Eagles",
+               "New England Patriots",
+               "Denver Broncos",
+               "New England Patriots")
+Last10lose <- c("San Francisco 49ers", "Philadelphia Eagles", "Cincinnati Bengals",
+                "Kansas City Chiefs", "San Francisco 49ers", "Los Angeles Rams",
+                "New England Patriots", "Atlanta Falcons", "Carolina Panthers",
+                "Seattle Seahawks")
+last10games <- data.frame(last10, last10win, Last10lose)
+view(last10games)
