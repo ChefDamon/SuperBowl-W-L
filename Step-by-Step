@@ -9,3 +9,4 @@ List of data to find
 -largest score gap
 -highest single game revenue
 -longest running game
+started to clean and organize the data in R however I ran into a issue with getting it into Tableau so I did it in MySQL and it turned out much better. 
